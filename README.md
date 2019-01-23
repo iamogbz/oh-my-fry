@@ -6,7 +6,7 @@
 | ------ | --------------------------------- |
 | `bass` | https://github.com/edc/bass       |
 | `nvm`  | https://github.com/creationix/nvm |
-| `yvm`  | https://github.com/tophat/nvm     |
+| `yvm`  | https://github.com/tophat/yvm     |
 
 ## Installation
 
