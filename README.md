@@ -2,15 +2,17 @@
 
 ## Dependencies
 
-Name    | Resource
---------|--------
-`bass`  | https://github.com/edc/bass
-`nvm`   | https://github.com/creationix/nvm
-`yvm`   | https://github.com/tophat/nvm
+| Name   | Resource                          |
+| ------ | --------------------------------- |
+| `bass` | https://github.com/edc/bass       |
+| `nvm`  | https://github.com/creationix/nvm |
+| `yvm`  | https://github.com/tophat/nvm     |
 
 ## Installation
 
 With your preferred fish plugin manager
+
+Example: [`omf`](https://github.com/oh-my-fish)
 
 ```fish
 omf i git@github.com:iamogbz/oh-my-fry.git
