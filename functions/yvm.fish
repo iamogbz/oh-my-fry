@@ -1,3 +1,1 @@
-function yvm
-    bass . $YVM_DIR/yvm.sh ';' yvm $argv
-end
+# yvm now supports fish natively https://github.com/tophat/yvm/releases/tag/v2.3.0
