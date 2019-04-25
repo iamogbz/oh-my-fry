@@ -1,0 +1,15 @@
+language: c
+dist: trusty
+sudo: required
+
+os:
+  - linux
+  - osx
+
+before_install:
+  - tools/travis-install-fish.sh
+  - tools/travis-install-omf.sh
+
+script:
+  - echo "Running tests"
+  - fish ./*/__tests__/*.test.fish
