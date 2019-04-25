@@ -4,11 +4,10 @@ sudo: required
 
 os:
   - linux
-  - osx
+  # - osx
 
 before_install:
   - tools/travis-install-fish.sh
-  - tools/travis-install-omf.sh
 
 script:
   - echo "Running tests"

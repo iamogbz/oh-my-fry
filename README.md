@@ -1,12 +1,14 @@
 # oh-my-fry
 
+[![Build Status](https://travis-ci.org/iamogbz/oh-my-fry.svg?branch=master)](https://travis-ci.org/iamogbz/oh-my-fry)
+
 ## Dependencies
 
-| Name   | Resource                          |
-| ------ | --------------------------------- |
-| `bass` | https://github.com/edc/bass       |
-| `nvm`  | https://github.com/creationix/nvm |
-| `yvm`  | https://github.com/tophat/yvm     |
+| Name   | Resource                                                   |
+| ------ | ---------------------------------------------------------- |
+| `bass` | [github/edc/bass](https://github.com/edc/bass)             |
+| `nvm`  | [github/creationix/nvm](https://github.com/creationix/nvm) |
+| `yvm`  | [github/tophat/yvm](https://github.com/tophat/yvm)         |
 
 ## Installation
 
