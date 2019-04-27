@@ -1,3 +1,3 @@
-function defup --description "Deduplicate all strings and return in new line"
-    echo (printf '%s\n' $argv | string trim | string split ' ' | sort -u)
+function defup --description "Deduplicate all strings and return delimited by new line"
+    printf '%s ' $argv | string replace -ar '\s+' ' ' | string trim | string split ' ' | sort -u
 end
