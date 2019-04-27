@@ -2,13 +2,13 @@
 
 source functions/defup.fish
 
-set expected $HOME $fish_user_paths
+set expected $HOME I repeated some string
 echo $expected
 
-set fish_user_paths (defup $HOME $HOME $fish_user_paths)
-echo $fish_user_paths
+set result (defup $HOME $HOME "some repeated I string string I")
+echo $result
 
-if [ "$fish_user_paths" = "$expected" ]
+if [ "$result" = "$expected" ]
   echo "Successful"
 else
   echo "Failed"
