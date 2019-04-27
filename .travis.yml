@@ -10,5 +10,4 @@ before_install:
   - tools/travis-install-fish.sh
 
 script:
-  - echo "Running tests"
-  - fish ./*/__tests__/*.test.fish
+  - make tests
