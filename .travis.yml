@@ -2,6 +2,10 @@ language: c
 dist: trusty
 sudo: required
 
+branches:
+  only:
+  - master
+
 os:
   - linux
   # - osx
