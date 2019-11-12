@@ -1,3 +1,1 @@
-function nvm
-    bass . $NVM_DIR/nvm.sh --no-use ';' nvm $argv
-end
+# Replacing use of nvm with asdf-vm/asdf-nodejs which supports shimming node
