@@ -4,11 +4,9 @@
 
 ## Dependencies
 
-| Name   | Resource                                                   |
-| ------ | ---------------------------------------------------------- |
-| `bass` | [github/edc/bass](https://github.com/edc/bass)             |
-| `nvm`  | [github/creationix/nvm](https://github.com/creationix/nvm) |
-| `yvm`  | [github/tophat/yvm](https://github.com/tophat/yvm)         |
+| Name         | Resource                                                                 |
+| ------------ | ------------------------------------------------------------------------ |
+| `fish@>=3.0` | [github/fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) |
 
 ## Installation
 
