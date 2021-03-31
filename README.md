@@ -1,6 +1,6 @@
 # oh-my-fry
 
-[![Build Status](https://travis-ci.org/iamogbz/oh-my-fry.svg?branch=master)](https://travis-ci.org/iamogbz/oh-my-fry)
+[![Build](https://github.com/iamogbz/oh-my-fry/actions/workflows/build.yml/badge.svg)](https://github.com/iamogbz/oh-my-fry/actions/workflows/build.yml)
 
 ## Dependencies
 

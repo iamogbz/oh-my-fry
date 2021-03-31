@@ -4,7 +4,7 @@ echo "functions: defup"
 
 source functions/defup.fish
 
-set expected $HOME I repeated some string
+set expected $HOME some repeated I string
 echo "Expect: $expected"
 
 set result (defup " " $HOME $HOME "  some repeated I string string I" "  I some")

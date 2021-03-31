@@ -1,0 +1,14 @@
+name: Build
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Install Fish
+      run: |
+        brew update
+        brew install fish tree
+    - name: Run Tests
+      run: make tests
